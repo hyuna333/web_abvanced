@@ -29,17 +29,30 @@ header span {
 .profile {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 200px;
+  align-items: center;
+  padding: 200px 0;
 }
 
 .profile img {
   border-radius: 50%;
   border: 9px solid transparent;
   background-image: linear-gradient(to bottom, #e70faa, #00c0fd, #e70faa);
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
 }
 
 .hi {
   color: #42446e;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 70px;
+}
+
+.hi span {
+  background: linear-gradient(to right, #13b0f5, #e70faa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .tech {
