@@ -9,10 +9,20 @@ header {
     margin-bottom: 200px;
 }
 
+header span {
+    margin-right: 60px;
+}
+
 .profile {
     display: flex;
     justify-content: space-between;
     margin-bottom: 200px;
+}
+
+.profile img {
+    border-radius: 50%;
+    border: 9px solid transparent;
+    background-image: linear-gradient(to bottom, #E70FAA, #00C0FD, #E70FAA);
 }
 
 .hi {
@@ -32,7 +42,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 24px;
-    column-gap: 12px;
+    column-gap: 24px;
     margin-bottom: 200px;
 }
 
@@ -41,6 +51,11 @@ header {
     box-shadow: 0px 0px 20px #d9d9d9;
     border-radius: 20px;
     overflow: hidden;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
 }
 
 .content {
@@ -55,4 +70,12 @@ header {
 
 .info div span {
     margin-right: 24px;
+}
+
+.title {
+    color: #42446E;
+}
+
+.des {
+    color: #666666;
 }
