@@ -1,81 +1,94 @@
 body {
-    margin-left: 160px;
-    margin-right: 160px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  margin-right: 20px;
 }
 
 header span {
-    margin-right: 60px;
+  margin-right: 50px;
+  font-weight: 500;
 }
 
 .profile {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
 }
 
 .profile img {
-    border-radius: 50%;
-    border: 9px solid transparent;
-    background-image: linear-gradient(to bottom, #E70FAA, #00C0FD, #E70FAA);
+  border-radius: 50%;
+  border: 9px solid transparent;
+  background-image: linear-gradient(to bottom, #e70faa, #00c0fd, #e70faa);
 }
 
 .hi {
-    color: #42446E;
+  color: #42446e;
 }
 
 .tech {
-    text-align: center;
-    margin-bottom: 200px;
+  text-align: center;
+  margin-bottom: 200px;
 }
 
 .projects {
-    text-align: center;
+  text-align: center;
 }
 
 .project {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 24px;
-    column-gap: 24px;
-    margin-bottom: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 24px;
+  column-gap: 24px;
+  margin-bottom: 200px;
 }
 
 .card {
-    width: 100%;
-    box-shadow: 0px 0px 20px #d9d9d9;
-    border-radius: 20px;
-    overflow: hidden;
+  width: 100%;
+  box-shadow: 0px 0px 20px #d9d9d9;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .links {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .content {
-    padding: 32px;
+  padding: 32px;
 }
 
 .info {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
 }
 
 .info div span {
-    margin-right: 24px;
+  margin-right: 24px;
 }
 
 .title {
-    color: #42446E;
+  color: #42446e;
 }
 
 .des {
-    color: #666666;
+  color: #666666;
 }
