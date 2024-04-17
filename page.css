@@ -1,0 +1,58 @@
+body {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.hi {
+    color: #42446E;
+}
+
+.tech {
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.projects {
+    text-align: center;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 24px;
+    column-gap: 12px;
+    margin-bottom: 200px;
+}
+
+.card {
+    width: 100%;
+    box-shadow: 0px 0px 20px #d9d9d9;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.content {
+    padding: 32px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.info div span {
+    margin-right: 24px;
+}
