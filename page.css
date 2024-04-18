@@ -74,9 +74,10 @@ header span {
 
 .stackimg {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 48px;
+  gap: 8%;
+  row-gap: 24px;
 }
 
 .stackimg img {
@@ -144,8 +145,17 @@ header span {
   margin-bottom: 48px;
 }
 
+.info div {
+  display: flex;
+  align-items: center;
+}
+
+.info div div {
+  gap: 20px;
+}
+
 .info div span {
-  margin-right: 24px;
+  margin-right: 48px;
 }
 
 .title {
@@ -160,4 +170,15 @@ header span {
   font-weight: 400;
   font-size: 24px;
   padding-bottom: 120px;
+}
+
+.last {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.last span {
+  background: linear-gradient(to right, #13b0f5, #e70faa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
