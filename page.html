@@ -11,38 +11,52 @@
     <header>
       <img src="./img/logo 1.svg" alt="로고" width="80" />
       <div>
-        <span>Home</span>
-        <span>About</span>
-        <span>Tech Stack</span>
-        <span>Projects</span>
-        <span>Contact</span>
-        <img src="./img/git.svg" alt="깃" />
+        <span><a href="">Home</a></span>
+        <span><a href="#about">About</a></span>
+        <span><a href="#techstack">Tech Stack</a></span>
+        <span><a href="#projects">Projects</a></span>
+        <span><a href="#contact">Contact</a></span>
+      </div>
+      <div>
+        <a href="https://github.com/hyuna333">
+          <img src="./img/git.svg" alt="깃" />
+        </a>
         <img src="./img/x.svg" alt="트위터" />
         <img src="./img/insta.svg" alt="인스타" />
       </div>
     </header>
 
-    <div class="profile">
+    <div class="profile" id="about">
       <div>
-        <h1 class="hi">Hi 👋,</h1>
-        <h1 class="hi">My name is</h1>
-        <h1>Pavan MG</h1>
-        <h1 class="hi">I build things for web</h1>
+        <h1 class="hi">
+          Hi 👋, <br />
+          My name is <span>Hyuna</span> <br />
+          I build things for web
+        </h1>
       </div>
-      <img
-        width="340"
-        src="https://s3-alpha-sig.figma.com/img/3e24/9d4a/68ef7bac9b2e7b78919f0e2b2b6995bc?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GJ-l1TKs~emld2Z2g7AvgX7vAEjUvqpTWVPA8u1bSKotqjNYDnUxBrXH0XPoVCgBJU9A-loURxwFEoaApnAtaVRF7ye1yTvIUcKOawbqTa6-gFftEDAlD6UnDBiOZ1RFEU5bxFCO2A1BJLGhgdHgHB~Eu2LgZorbYoE3scw66t03bxo83ML~RUhCOH2Ua5Bst7EqmC5QfUR7RDnbVjgjxexWRjaT3aInn54K3DDfy9Mh5qUxykj-do2RHKArVWPM4HQY8Rir~0fcCVkLGCPmDAhcgNAKdutv5UJWDbxfhAyijcujglVO2AjV70-vkbNnBfdJ6XnZ9a9iD1igEYH8-Q__"
-        alt=""
-      />
+      <img src="./img/수달.png" alt="수달" />
     </div>
 
-    <div class="tech">
+    <div class="tech" id="techstack">
       <h1 class="title">My Tech Stack</h1>
       <h3 class="des">Technologies I’ve been working with recently</h3>
-      <img src="./img/tech stacks.svg" alt="테크스택" width="1000" />
+      <div class="stackimg">
+        <img src="./img/tech-stack-1.svg" alt="1" />
+        <img src="./img/tech-stack-2.svg" alt="2" />
+        <img src="./img/tech-stack-3.svg" alt="3" />
+        <img src="./img/tech-stack-4.svg" alt="4" />
+        <img src="./img/tech-stack-5.svg" alt="5" />
+        <img src="./img/tech-stack-6.svg" alt="6" />
+        <img src="./img/tech-stack-7.svg" alt="7" />
+        <img src="./img/tech-stack-8.svg" alt="8" />
+        <img src="./img/tech-stack-9.svg" alt="9" />
+        <img src="./img/tech-stack-10.svg" alt="10" />
+        <img src="./img/tech-stack-11.svg" alt="11" />
+        <img src="./img/tech-stack-12.svg" alt="12" />
+      </div>
     </div>
 
-    <div class="projects">
+    <div class="projects" id="projects">
       <h1 class="title">Projects</h1>
       <h3 class="des">Things I’ve built so far</h3>
       <div class="project">
@@ -50,26 +64,121 @@
           <img
             width="100%"
             height="240px"
+            src="./img/dgrrlogo.svg"
+            alt="데구르르로고"
+          />
+          <div class="content">
+            <p class="contenttitle">데구르르</p>
+            <p class="contentdes">
+              웃음이 사라지는 현대 사회에서, 가볍게 즐길 수 있는 게임을 통해
+              웃음을 자아낼 수 있는 1:1 웃음참기 화상 대결 서비스
+            </p>
+            <p class="contentts">
+              Tech stack : React, TypeScript, Tailwind, Next.js
+            </p>
+            <div class="links">
+              <div>
+                <img src="./img/link.svg" alt="링크" width="20" />
+                <a href="#" style="color: black"> Live Preview </a>
+              </div>
+              <div>
+                <img src="./img/git.svg" alt="링크" width="20" />
+                <a href="https://github.com/TEAM-DGRR" style="color: black">
+                  View Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            width="100%"
+            height="240px"
+            src="./img/coffeeinglogo.svg"
+            alt="커피잉로고"
+          />
+          <div class="content">
+            <p class="contenttitle">Coffeeing</p>
+            <p class="contentdes">
+              원두와 캡슐을 추천 받을 수 있는 서비스. 키워드 기반 큐레이션,
+              나만의 커피 취향을 분석할 수 있으며 사용자들과 피드를 통해
+              커뮤니케이션
+            </p>
+            <p class="contentts">Tech stack : React, TypeScript, Tailwind</p>
+            <div class="links">
+              <div>
+                <img src="./img/link.svg" alt="링크" width="20" />
+                <a href="#" style="color: black"> Live Preview </a>
+              </div>
+              <div>
+                <img src="./img/git.svg" alt="링크" width="20" />
+                <a
+                  href="https://github.com/onebean-hyeonbean-coffeebean/coffeeing"
+                  style="color: black"
+                >
+                  View Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            width="100%"
+            height="240px"
+            src="./img/cinebuckslogo.svg"
+            alt="시네벅스로고"
+          />
+          <div class="content">
+            <p class="contenttitle">CINEBUCKS</p>
+            <p class="contentdes">
+              카페에서 취향의 커피를 추천받고 리뷰를 남기듯이, 영화를 추천받고
+              정보를 확인하고 리뷰를 남길 수 있는 사이트
+            </p>
+            <p class="contentts">
+              Tech stack : HTML, CSS, Django, Vue.js, Python
+            </p>
+            <div class="links">
+              <div>
+                <img src="./img/link.svg" alt="링크" width="20" />
+                <a href="#" style="color: black"> Live Preview </a>
+              </div>
+              <div>
+                <img src="./img/git.svg" alt="링크" width="20" />
+                <a
+                  href="https://github.com/hyuna333/movie_recommand_site"
+                  style="color: black"
+                >
+                  View Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="card">
+          <img
+            width="100%"
+            height="240px"
             src="https://source.unsplash.com/random/?programming"
             alt="랜덤이미지"
           />
           <div class="content">
-            <h3>Project Tile goes here</h3>
-            <p style="text-align: left">
+            <p class="contenttitle">Project Tile goes here</p>
+            <p class="contentdes">
               This is sample project description random things are here in
               description This is sample project lorem ipsum generator for dummy
               content
             </p>
-            <p>Tech stack : HTML , JavaScript, SASS, React</p>
+            <p class="contentts">Tech stack : HTML , JavaScript, SASS, React</p>
             <div class="links">
-              <a href="#" style="color: black">
+              <div>
                 <img src="./img/link.svg" alt="링크" width="20" />
-                Live Preview
-              </a>
-              <a href="#" style="color: black">
+                <a href="#" style="color: black"> Live Preview </a>
+              </div>
+              <div>
                 <img src="./img/git.svg" alt="링크" width="20" />
-                View Code
-              </a>
+                <a href="#" style="color: black"> View Code </a>
+              </div>
             </div>
           </div>
         </div>
@@ -81,22 +190,22 @@
             alt="랜덤이미지"
           />
           <div class="content">
-            <h3>Project Tile goes here</h3>
-            <p style="text-align: left">
+            <p class="contenttitle">Project Tile goes here</p>
+            <p class="contentdes">
               This is sample project description random things are here in
               description This is sample project lorem ipsum generator for dummy
               content
             </p>
-            <p>Tech stack : HTML , JavaScript, SASS, React</p>
+            <p class="contentts">Tech stack : HTML , JavaScript, SASS, React</p>
             <div class="links">
-              <a href="#" style="color: black">
+              <div>
                 <img src="./img/link.svg" alt="링크" width="20" />
-                Live Preview
-              </a>
-              <a href="#" style="color: black">
+                <a href="#" style="color: black"> Live Preview </a>
+              </div>
+              <div>
                 <img src="./img/git.svg" alt="링크" width="20" />
-                View Code
-              </a>
+                <a href="#" style="color: black"> View Code </a>
+              </div>
             </div>
           </div>
         </div>
@@ -108,130 +217,49 @@
             alt="랜덤이미지"
           />
           <div class="content">
-            <h3>Project Tile goes here</h3>
-            <p style="text-align: left">
+            <p class="contenttitle">Project Tile goes here</p>
+            <p class="contentdes">
               This is sample project description random things are here in
               description This is sample project lorem ipsum generator for dummy
               content
             </p>
-            <p>Tech stack : HTML , JavaScript, SASS, React</p>
+            <p class="contentts">Tech stack : HTML , JavaScript, SASS, React</p>
             <div class="links">
-              <a href="#" style="color: black">
+              <div>
                 <img src="./img/link.svg" alt="링크" width="20" />
-                Live Preview
-              </a>
-              <a href="#" style="color: black">
+                <a href="#" style="color: black"> Live Preview </a>
+              </div>
+              <div>
                 <img src="./img/git.svg" alt="링크" width="20" />
-                View Code
-              </a>
+                <a href="#" style="color: black"> View Code </a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <img
-            width="100%"
-            height="240px"
-            src="https://source.unsplash.com/random/?programming"
-            alt="랜덤이미지"
-          />
-          <div class="content">
-            <h3>Project Tile goes here</h3>
-            <p style="text-align: left">
-              This is sample project description random things are here in
-              description This is sample project lorem ipsum generator for dummy
-              content
-            </p>
-            <p>Tech stack : HTML , JavaScript, SASS, React</p>
-            <div class="links">
-              <a href="#" style="color: black">
-                <img src="./img/link.svg" alt="링크" width="20" />
-                Live Preview
-              </a>
-              <a href="#" style="color: black">
-                <img src="./img/git.svg" alt="링크" width="20" />
-                View Code
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            width="100%"
-            height="240px"
-            src="https://source.unsplash.com/random/?programming"
-            alt="랜덤이미지"
-          />
-          <div class="content">
-            <h3>Project Tile goes here</h3>
-            <p style="text-align: left">
-              This is sample project description random things are here in
-              description This is sample project lorem ipsum generator for dummy
-              content
-            </p>
-            <p>Tech stack : HTML , JavaScript, SASS, React</p>
-            <div class="links">
-              <a href="#" style="color: black">
-                <img src="./img/link.svg" alt="링크" width="20" />
-                Live Preview
-              </a>
-              <a href="#" style="color: black">
-                <img src="./img/git.svg" alt="링크" width="20" />
-                View Code
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            width="100%"
-            height="240px"
-            src="https://source.unsplash.com/random/?programming"
-            alt="랜덤이미지"
-          />
-          <div class="content">
-            <h3>Project Tile goes here</h3>
-            <p style="text-align: left">
-              This is sample project description random things are here in
-              description This is sample project lorem ipsum generator for dummy
-              content
-            </p>
-            <p>Tech stack : HTML , JavaScript, SASS, React</p>
-            <div class="links">
-              <a href="#" style="color: black">
-                <img src="./img/link.svg" alt="링크" width="20" />
-                Live Preview
-              </a>
-              <a href="#" style="color: black">
-                <img src="./img/git.svg" alt="링크" width="20" />
-                View Code
-              </a>
-            </div>
-          </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
     <footer>
-      <div class="info">
+      <div class="info" id="contact">
         <img src="./img/logo 2.svg" alt="로고" width="80px" />
         <div>
           <span>+91 12345 09876</span>
           <span>info@example.com</span>
-          <img src="./img/git.svg" alt="깃" />
-          <img src="./img/x.svg" alt="트위터" />
-          <img src="./img/insta.svg" alt="인스타" />
+          <div>
+            <a href="https://github.com/hyuna333">
+              <img src="./img/git.svg" alt="깃" />
+            </a>
+            <img src="./img/x.svg" alt="트위터" />
+            <img src="./img/insta.svg" alt="인스타" />
+          </div>
         </div>
       </div>
       <hr style="margin-bottom: 48px" />
-      <div class="info">
-        <div>
-          <span>Home</span>
-          <span>About</span>
-          <span>Technologies</span>
-          <span>Projects</span>
-          <span>Contact</span>
-        </div>
-        <span>Designed and built by Pavan MG with Love & Coffee</span>
+      <div class="last">
+        <p>
+          Designed and built by <span>Hyuna</span> with <span>Love</span> &
+          <span>Coffee</span>
+        </p>
       </div>
     </footer>
   </body>
