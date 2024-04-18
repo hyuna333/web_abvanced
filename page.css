@@ -182,3 +182,14 @@ header span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+a:link {
+  color: #666666;
+  text-decoration: none;
+}
+
+a:hover {
+  background: linear-gradient(to right, #13b0f5, #e70faa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
