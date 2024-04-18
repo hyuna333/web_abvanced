@@ -22,4 +22,4 @@ jobs:
           aws s3 cp \
             --recursive \
             --region ap-northeast-2 \
-            ./ s3://{ha-portpolio}
+            ./ s3://ha-portpolio
