@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin-left: 15%;
   margin-right: 15%;
@@ -17,12 +21,13 @@ body * {
 }
 
 header {
-  width: 100%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  position: fixed;
+  padding: 12px 0;
+  background: white;
 }
 
 header div {
@@ -43,7 +48,7 @@ header span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 200px 0;
+  padding: 120px 0;
 }
 
 .profile img {
@@ -70,7 +75,7 @@ header span {
 
 .tech {
   text-align: center;
-  padding-bottom: 240px;
+  padding: 120px 0;
 }
 
 .stackimg {
@@ -88,6 +93,7 @@ header span {
 
 .projects {
   text-align: center;
+  padding: 120px 0;
 }
 
 .project {
@@ -95,7 +101,6 @@ header span {
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 24px;
   column-gap: 24px;
-  margin-bottom: 200px;
 }
 
 .card {
