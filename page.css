@@ -18,11 +18,11 @@ header div {
 }
 
 header img {
-  margin-right: 20px;
+  margin: 0 12px;
 }
 
 header span {
-  margin-right: 50px;
+  margin: 0 24px;
   font-weight: 500;
 }
 
@@ -57,7 +57,19 @@ header span {
 
 .tech {
   text-align: center;
-  margin-bottom: 200px;
+  padding-bottom: 240px;
+}
+
+.stackimg {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.stackimg img {
+  width: 120px;
+  height: 120px;
 }
 
 .projects {
@@ -100,8 +112,14 @@ header span {
 
 .title {
   color: #42446e;
+  font-weight: 700;
+  font-size: 48px;
+  padding-bottom: 24px;
 }
 
 .des {
   color: #666666;
+  font-weight: 400;
+  font-size: 24px;
+  padding-bottom: 120px;
 }
