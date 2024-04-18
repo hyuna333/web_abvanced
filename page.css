@@ -9,6 +9,7 @@
 body {
   margin-left: 10%;
   margin-right: 10%;
+  max-width: 1500px;
 }
 
 body * {
@@ -104,6 +105,9 @@ header span {
   overflow: hidden;
 }
 
+.card img {
+  object-fit: cover;
+}
 .links {
   display: flex;
   justify-content: space-between;
